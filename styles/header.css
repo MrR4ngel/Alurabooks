@@ -93,7 +93,7 @@
         display: flex;
     }
 
-    .options__item{
+    .options__item {
         padding: 0 1em;
         text-transform: uppercase;
     }
@@ -104,6 +104,15 @@
     }
 
     .container__imagem-transparente, .header__menu-hamburguer {
+        display: none;
+    }
+
+    .options__button:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .options__button {
         display: none;
     }
 
