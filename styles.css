@@ -4,6 +4,7 @@
 @import url("styles/topicos.css");
 @import url("styles/contato.css");
 @import url("styles/rodape.css");
+@import url(styles/rodape.css);
 
 :root {
     --cor-de-fundo: #EBECEE;
@@ -14,8 +15,13 @@
     --azul:#002F52;
     --preto: #000000;
     --fonte-secundaria: 'Josefin Sans';
+    --cinza: #474646;
+    --cinza-claro: #858585;
 }
 
 body {
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
